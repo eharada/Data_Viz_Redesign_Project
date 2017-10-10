@@ -14,7 +14,7 @@ I would like to take the same data and add geography in the equation. My goal is
 
 ---------
 ## Project Progression:
-<b> 1st: </b>
+<b> 1st Step: </b>
 First I started with my exploratory visual with the current data that I had. I wanted to get a clear picture of what was possible and if there was any correlation that I was missing from just looking at the spreadsheet. With that, I created these visuals that show which states have the highest number of tech employees who feel that their mental health interferes with their work as well as the number of companies who don't offer or don't make it clear that they have wellness programs.
 
 ![image](https://user-images.githubusercontent.com/32119820/31318365-d42c4704-ac05-11e7-8077-cebd042b10a4.png)
@@ -22,13 +22,15 @@ First I started with my exploratory visual with the current data that I had. I w
 
 The above graphs depict California as being the top state in which tech employees believe their mental health interferes with their work. It is also the top state in which employees aren't sure if their employers offers wellness programs.
 
-<b> 2nd: </b>
+<b> 2nd Step: </b>
 My next step was data wrangling. I had to clean up the spreadsheet as there were a lot of fields that were free text rather than a drop-down. For example, the Gender column allowed a free form text which caused many variations of Female (i.e. Female, Woman, Female CIS). I was able to convert the Gender column to Female and Male. I also wanted to exclude any rows that had blank answers for work interference since we are trying to see if there is a correlation between work intereference and wellness programs. If we had left in the blanks, then that would skew our data because we would have more responded for wellness programs than work intereference. I was able to use the following website on help with the re library and regular expressions.
 
 https://docs.python.org/2/library/re.html
 
-<br/>
-<b> 1st Iteration: </b><br/>
+
+<b> 3rd Step: </b>
+
+<b> First Iteration- </b><br/>
 
 ![image](https://user-images.githubusercontent.com/32119820/31402175-14ee64fc-adaa-11e7-98f5-fb268d556b61.png)
 
