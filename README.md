@@ -29,6 +29,7 @@ https://docs.python.org/2/library/re.html
 
 <br/>
 <b> 1st Iteration: </b><br/>
+
 ![image](https://user-images.githubusercontent.com/32119820/31402175-14ee64fc-adaa-11e7-98f5-fb268d556b61.png)
 
 Advantage: This chart shows how the states with the highest number of tech employees are unsure or know that their company does not offer wellness programs. Employees feel that mental health is a burden as there is not support system in place at these tech companies.
