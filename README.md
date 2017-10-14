@@ -35,9 +35,14 @@ https://docs.python.org/2/library/re.html
 
 <b> 3rd Step: Data Visualization Prototypes</b>
 
-<b> First Iteration- </b><br/>
+<b><i> First Iteration- </b></i><br/>
 
 ![image](https://user-images.githubusercontent.com/32119820/31402175-14ee64fc-adaa-11e7-98f5-fb268d556b61.png)
+
+In the first iteration I assumed that the response rate for each state is the same. Therefore the comparison would be equivalent and we could easily see which states had a higher average of work intereference and employees feeling lack of support from their companies. However this was not the case and California had the highest number of responses, which could be due to having more tech companies in that state.
+<br/>
+In the next version, I will remove the states with low response rates (Ex: Idaho had 1 response) and I will normalize the data to show the responses per size of population. This will allow us to compare apples to apples in terms of population size.
+<br/><br/>
 
 Advantage: This chart shows how the states with the highest number of tech employees are unsure or know that their company does not offer wellness programs. Employees feel that mental health is a burden as there is not support system in place at these tech companies.
 <br/>
