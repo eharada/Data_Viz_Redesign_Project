@@ -1,4 +1,4 @@
-# Data_Viz_Redesign_Project
+# Data Redesign Project: Does location play a role in mental health policies in companies?
 
 ## Project Statement:
 
@@ -9,6 +9,11 @@ https://www.kaggle.com/osmi/mental-health-in-tech-survey
 The data visualization that Kaggle user, Lislejoem, created focuses more on bar charts that show the difference between yes/no questions. He focuses more on the difference in opinion between those who have reached out for support and those who have not. 
 
 https://www.kaggle.com/lislejoem/recognition-of-importance-of-mental-health-in-us
+
+The majority of Lislejoem's visuals are bar chart that measure the number of responses.
+
+![image](https://user-images.githubusercontent.com/32119820/31578091-2ce598f0-b0cf-11e7-8fd2-6638281815f5.png)
+
 
 I would like to take the same data and add geography in the equation. My goal is to see if there is more openness to mental health in certain states and if that is related to how much people perceive it to interfere with their work. 
 
