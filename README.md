@@ -55,6 +55,16 @@ For this iteration, I cleaned up the data to exclude the states that had less th
 ![image](https://user-images.githubusercontent.com/32119820/31580254-00e8074e-b0ff-11e7-8565-dab9317297b8.png)
 
 In addition, I updated the Jupyter Notebook to include a spreadsheet of the US populations per year. The original spreadsheet was taken from census.gov and showed each US state and territory's population from 2010-2016. However we are only interested in 2014 as that is when the survey was submitted. With the 2014 population, we can now normalize the data and compare apples to apples by dividing the response rate by the population per state. This will allow us to see what percentage of the entire population feels that work interferes with their work and if they feel support from their work. 
+<br/>
+
+For the next iteration, I am going to focus more on the wellness program to see if there is a huge difference between employees who feel they are supported versus those who are unsure or don't feel supported by their employers. I'm going to bring in the state and wellness program responses.
+<br/>
+
+Here we can see a side by side comparison between the positive and negative support. Oregon has the highest difference amongst the other 9 states, while California has the smallest difference. This is opposite of what we saw in the initial exploratory data. In there, we saw a map with California having the highest amount of uncertainty on wellness programs. This shows us the importance of normalizing the data so that we don't make false assumptions and compare apples to oranges.
+
+![image](https://user-images.githubusercontent.com/32119820/31580406-b0b89a9a-b103-11e7-9f7d-ec48619e6ee7.png)
+
+Our next step now is to find the difference between the positive and negative support and present that in a United States map (similar to how the exploratory data was shown). I envision the visual to be shown so that those with the highest differences will be in a darker red.
 
 
 
