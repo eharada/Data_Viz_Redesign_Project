@@ -47,6 +47,17 @@ In the next version, I will remove the states with low response rates (Ex: Idaho
 Advantage: This chart shows how the states with the highest number of tech employees are unsure or know that their company does not offer wellness programs. Employees feel that mental health is a burden as there is not support system in place at these tech companies.
 <br/>
 Disadvantage: This chart had to be manually sorted from highest to lowest average of work intereference. In addition it might be easier to visualize this through a map or a trendline to see if there is a stronger correlation between work interference and lack of mental health programs.
+<br/><br/>
+
+<b><i> Second Iteration- </b></i><br/>
+For this iteration, I cleaned up the data to exclude the states that had less than 10 responses for those were in tech companies as this skews the data. The below states will be excluded from all future data visuals.
+
+![image](https://user-images.githubusercontent.com/32119820/31580254-00e8074e-b0ff-11e7-8565-dab9317297b8.png)
+
+In addition, I updated the Jupyter Notebook to include a spreadsheet of the US populations per year. The original spreadsheet was taken from census.gov and showed each US state and territory's population from 2010-2016. However we are only interested in 2014 as that is when the survey was submitted. With the 2014 population, we can now normalize the data and compare apples to apples by dividing the response rate by the population per state. This will allow us to see what percentage of the entire population feels that work interferes with their work and if they feel support from their work. 
+
+
+
 
 
 -------------------------
