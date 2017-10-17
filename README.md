@@ -67,13 +67,31 @@ Here we can see a side by side comparison between the positive and negative supp
 Our next step now is to find the difference between the positive and negative support and present that in a United States map (similar to how the exploratory data was shown). I envision the visual to be shown so that those with the highest differences will be in a darker red.
 
 <b><i> Third Iteration- </b></i><br/>
-The first step is to create a bar graph that shows the difference between the most and least amount of mental health support per state. This will help us visually see which states have the highest gap between positive and negative support. In the 2nd iteration, we could see that general there is a higher number of negative support.
+The first step is to create a bar graph that shows the difference between the most and least amount of mental health support per state. This will help us visually see which states have the highest gap between positive and negative support. In the 2nd iteration, we could see that generally there is a higher number of negative support. In this version, we can see that Oregon has the highest difference between the tech companies that offer wellness programs and those who do not/are unsure.
 
-~INSERT IMAGE~
+![image](https://user-images.githubusercontent.com/32119820/31677991-88628b3a-b321-11e7-95e3-fa2e978f6e1d.png)
 
-The next step is to plot the data on a map to see which states have the largest variance in mental health support. The darker colors means that those states have the biggest gap between high and low support. We can see that Oregon is the darkest color, while its neighboring states, Washington and California, are on the lighter end. These two states have roughly the same amount of employees who feel negative and positive support. However Oregon has a lot more employees who feel negative support. 
+The next step is to plot the data on a map to see which states have the largest variance in mental health support. This will make it easier for the audience to quickly see which states will need to take action. 
 
-~INSERT IMAGE~
+-------------
+## Final Version:
+
+![image](https://user-images.githubusercontent.com/32119820/31678150-0cea0964-b322-11e7-9694-4daa967a01fe.png)
+
+In the above map, the darker colors mean that those states have the biggest gap between high and low support. We can see that Oregon is the darkest color, while its neighboring states, Washington and California, are on the lighter end. Oregon has the biggest variance which shows that employees are very unsure of wellness programs. Meanwhile Washington and California have roughly an even amount of employees who are feel supported versus those who are unsure. California has more than triple the population size than Oregon but is still able to maintain more balance for mental health support. 
+
+It might be a good idea for mental health proponents to gather current company methods from California and Washington and create the initatives in Oregon. This will allow Oregon to have a tighter gap between those who feel they don't have their employer's support for mental health and those who feel confident in their employer's support.
+<br/><br/>
+
+-----------
+## Roadmap:
+
+Future Features: <br/>
+1. Get data on a county level to see if certain counties in California differ from each other. Does Silicon Valley offer more wellness programs than the more rural areas?
+2. Get data for specific companies/industries to see if mental health support differs between more technological companies.
+3. Compare age to see if the younger generation feels more comfortable speaking up about their mental health concerns. Does the younger generation demand more which leads to more changes in companies?
+
+
 
 
 
@@ -81,7 +99,6 @@ The next step is to plot the data on a map to see which states have the largest 
 
 
 -------------------------
-3. Several intermediate visualization prototypes
 4. Final data visualization
 5. Road map with future features/enhancements/features
 6. Showcase video (<90 sec)
