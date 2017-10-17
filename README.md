@@ -66,6 +66,16 @@ Here we can see a side by side comparison between the positive and negative supp
 
 Our next step now is to find the difference between the positive and negative support and present that in a United States map (similar to how the exploratory data was shown). I envision the visual to be shown so that those with the highest differences will be in a darker red.
 
+<b><i> Third Iteration- </b></i><br/>
+The first step is to create a bar graph that shows the difference between the most and least amount of mental health support per state. This will help us visually see which states have the highest gap between positive and negative support. In the 2nd iteration, we could see that general there is a higher number of negative support.
+
+<<insert image >>
+
+The next step is to plot the data on a map to see which states have the largest variance in mental health support. The darker colors means that those states have the biggest gap between high and low support. We can see that Oregon is the darkest color, while its neighboring states, Washington and California, are on the lighter end. These two states have roughly the same amount of employees who feel negative and positive support. However Oregon has a lot more employees who feel negative support. 
+
+<<insert image >>
+
+
 
 
 
