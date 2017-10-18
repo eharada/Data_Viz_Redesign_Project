@@ -15,7 +15,7 @@ The majority of Lislejoem's visuals are bar chart that measure the number of res
 ![image](https://user-images.githubusercontent.com/32119820/31578091-2ce598f0-b0cf-11e7-8fd2-6638281815f5.png)
 
 
-I would like to take the same data and add geography in the equation. My goal is to see if there is more openness to mental health in certain states and if that is related to how much people perceive it to interfere with their work. 
+However often times there are many different factors, so I would like to take the same data and add geography in the equation. My goal is to see if there is more openness to mental health in certain states and if that is related to how much people perceive it to interfere with their work. 
 
 ---------
 ## Project Progression:
@@ -71,7 +71,7 @@ The first step is to create a bar graph that shows the difference between the mo
 
 ![image](https://user-images.githubusercontent.com/32119820/31677991-88628b3a-b321-11e7-95e3-fa2e978f6e1d.png)
 
-The next step is to plot the data on a map to see which states have the largest variance in mental health support. This will make it easier for the audience to quickly see which states will need to take action. 
+The next step is to plot the data on a map to see which states have the largest variance in mental health support. With the next version, I want to only focus on if the employees know if there is a wellness program. This will make it easier for the audience to quickly see which states will need to take action. 
 
 -------------
 ## Final Version:
@@ -80,7 +80,7 @@ The next step is to plot the data on a map to see which states have the largest 
 
 In the above map, the darker colors mean that those states have the biggest gap between high and low support. We can see that Oregon is the darkest color, while its neighboring states, Washington and California, are on the lighter end. Oregon has the biggest variance which shows that employees are very unsure of wellness programs. Meanwhile Washington and California have roughly an even amount of employees who are feel supported versus those who are unsure. California has more than triple the population size than Oregon but is still able to maintain more balance for mental health support. 
 
-It might be a good idea for mental health proponents to gather current company methods from California and Washington and create the initatives in Oregon. This will allow Oregon to have a tighter gap between those who feel they don't have their employer's support for mental health and those who feel confident in their employer's support.
+It might be a good idea for mental health proponents to borrow company's current support strategies from California and Washington and begin their initatives in Oregon. This will allow Oregon to have a tighter gap between those who feel they don't have their employer's support for mental health and those who feel confident in their employer's support.
 <br/><br/>
 
 -----------
@@ -89,7 +89,7 @@ It might be a good idea for mental health proponents to gather current company m
 Future Features: <br/>
 1. Get data on a county level to see if certain counties in California differ from each other. Does Silicon Valley offer more wellness programs than the more rural areas?
 2. Get data for specific companies/industries to see if mental health support differs between more technological companies.
-3. Compare age to see if the younger generation feels more comfortable speaking up about their mental health concerns. Does the younger generation demand more which leads to more changes in companies?
+3. Compare age to see if the younger generation feels more comfortable speaking up about their mental health concerns. Does the younger generation demand more, which leads to more changes in companies?
 
 
 
