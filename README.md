@@ -2,7 +2,7 @@
 
 ## Project Statement:
 
-For this project I wanted to focus on the healthcare industry and more specifically healthcare and technology. Although mental health has been around for decades, is a newly dicussed topic especially in Silicon Valley. As this becomes a bigger buzz word, companies should be cognizant of how mental well-being plays a role in their company's success and potentially alter their benefits. The data set was pulled from Kaggle.com, which has survey data for how comfortable people feel with being open with their mental health in the technoogy workplace and how supported they feel by their employers.
+For this project I wanted to focus on the healthcare industry and more specifically healthcare and technology. Although mental health has been around for decades, is a newly discussed topic especially in Silicon Valley. As this becomes a bigger buzzword, companies should be cognizant of how mental well-being plays a role in their company's success and potentially alter their benefits. The data set was pulled from Kaggle.com, which has survey data for how comfortable people feel with being open with their mental health in the technology workplace and how supported they feel by their employers.
 
 https://www.kaggle.com/osmi/mental-health-in-tech-survey
 
@@ -25,10 +25,10 @@ First I started with my exploratory visual with the current data that I had. I w
 ![image](https://user-images.githubusercontent.com/32119820/31318365-d42c4704-ac05-11e7-8077-cebd042b10a4.png)
 ![image](https://user-images.githubusercontent.com/32119820/31318370-e86b5bf6-ac05-11e7-98e0-5af3e34c2034.png)
 
-The above graphs depict California as being the top state in which tech employees believe their mental health interferes with their work. It is also the top state in which employees aren't sure if their employers offers wellness programs.
+The above graphs depict California as being the top state in which tech employees believe their mental health interferes with their work. It is also the top state in which employees aren't sure if their employers offer wellness programs.
 
 <b> 2nd Step: Data Wrangling </b>
-My next step was data wrangling. I had to clean up the spreadsheet as there were a lot of fields that were free text rather than a drop-down. For example, the gender column allowed free-form text which caused many variations of Female (i.e. Female, Woman, Female CIS). I was able to convert the gender column to Female and Male. I also wanted to exclude any rows that had blank answers for work interference since we are trying to see if there is a correlation between work intereference and wellness programs. If we had left in the blank responses, then that would skew our data because we would have more responded for wellness programs than work intereference. I was able to use the following website to get help on using the re library and regular expressions.
+My next step was data wrangling. I had to clean up the spreadsheet, as there were a lot of fields that were free text rather than a drop-down. For example, the gender column allowed free-form text, which caused many variations of Female (i.e. Female, Woman, Female CIS). I was able to convert the gender column to Female and Male. I also wanted to exclude any rows that had blank answers for work interference since we are trying to see if there is a correlation between work interference and wellness programs. If we had left in the blank responses, then that would skew our data because we would have more responded for wellness programs than work interference. I was able to use the following website to get help on using the re library and regular expressions.
 
 https://docs.python.org/2/library/re.html
 
@@ -39,14 +39,14 @@ https://docs.python.org/2/library/re.html
 
 ![image](https://user-images.githubusercontent.com/32119820/31402175-14ee64fc-adaa-11e7-98f5-fb268d556b61.png)
 
-In the first iteration I assumed that the response rate for each state is the same. Therefore the comparison would be equivalent and we could easily see which states had a higher average of work intereference and employees feeling lack of support from their companies. However this was not the case and California had the highest number of responses, which could be due to having more tech companies in that state. This skewed the data, which led to California being perceived to be the state with the highest lack of support.
+In the first iteration I assumed that the response rate for each state is the same. Therefore the comparison would be equivalent and we could easily see which states had a higher average of work interference and employees feeling lack of support from their companies. However this was not the case and California had the highest number of responses, which could be due to having more tech companies in that state. This skewed the data, which led to California being perceived to be the state with the highest lack of support.
 <br/>
 In the next version, I am going to normalize the data to show the responses per size of population and remove the states with low response rates (Ex: Idaho had 1 response). This will allow us to compare apples to apples in terms of population size.
 <br/><br/>
 
 Advantage: This chart shows the states with the highest number of tech employees who are unsure or know that their company does not offer wellness programs. Employees feel that mental health is a burden as there is no support system in place at these tech companies.
 <br/>
-Disadvantage: This chart had to be manually sorted from highest to lowest average of work intereference. In addition it might be easier to visualize this through a map or a trendline to see if there is a stronger correlation between work interference and lack of mental health programs.
+Disadvantage: This chart had to be manually sorted from highest to lowest average of work interference. In addition it might be easier to visualize this through a map or a trend line to see if there is a stronger correlation between work interference and lack of mental health programs.
 <br/><br/>
 
 <b><i> Second Iteration- </b></i><br/>
@@ -60,7 +60,7 @@ In addition, I updated the Jupyter Notebook to include a spreadsheet of the US p
 For the next iteration, I am going to focus more on the wellness program to see if there is a huge difference between employees who feel they are supported versus those who are unsure or don't feel supported by their employers. I'm going to bring in the state and wellness program responses.
 <br/>
 
-Here we can see a side by side comparison between the positive and negative support. Oregon has the highest variance amongst the other 9 states, while California has the smallest difference. This is opposite of what we saw in the initial exploratory data. We saw a map with California having the highest amount of uncertainty on wellness programs. This shows us the importance of normalizing the data so that we don't make false assumptions, which leads to skewed results.
+Here we can see a side-by-side comparison between the positive and negative support. Oregon has the highest variance amongst the other 9 states, while California has the smallest difference. This is opposite of what we saw in the initial exploratory data. We saw a map with California having the highest amount of uncertainty on wellness programs. This shows us the importance of normalizing the data so that we don't make false assumptions, which leads to skewed results.
 
 ![image](https://user-images.githubusercontent.com/32119820/31580406-b0b89a9a-b103-11e7-9f7d-ec48619e6ee7.png)
 
@@ -78,9 +78,9 @@ The next step is to plot the data on a map to see which states have the largest 
 
 ![image](https://user-images.githubusercontent.com/32119820/31678150-0cea0964-b322-11e7-9694-4daa967a01fe.png)
 
-In the above map, the darker colors mean that those states have the biggest gap between high and low support. We can see that Oregon is the darkest color, while its neighboring states, Washington and California, are on the lighter end. Oregon has the biggest variance which shows that employees are very unsure of wellness programs. Meanwhile Washington and California have roughly an even amount of employees who are feel supported versus those who are unsure. California has more than triple the population size than Oregon but is still able to maintain more balance for mental health support. 
+In the above map, the darker colors mean that those states have the biggest gap between high and low support. We can see that Oregon is the darkest color, while its neighboring states, Washington and California, are on the lighter end. Oregon has the biggest variance, which shows that employees are very unsure of wellness programs. Meanwhile Washington and California have roughly an even amount of employees who are feel supported versus those who are unsure. California has more than triple the population size than Oregon but is still able to maintain more balance for mental health support. 
 
-It will a good idea for tech companies in Oregon to learn from California and Washington to see how they set up their mental wellness benefits. Oregon should then implement similar programs so that they can attract more employees to their state. Although the Bay Area is a popular destination for many employees, Oregon could potentially be on the same playing field if they are able to offer more variety in their benefits. Mental health will continue to be a growing topic, so future employees will appreciate the tech company's efforts to support their well-being.
+The next step is for tech companies in Oregon to learn from California and Washington to see how they set up their mental wellness benefits. Oregon should then implement similar programs so that they can attract more employees to their state. Although the Bay Area is a popular destination for many employees, Oregon could potentially be on the same playing field if they are able to offer more variety in their benefits. Mental health will continue to be a growing topic, so future employees will appreciate the tech company's efforts to support their well-being.
 <br/><br/>
 
 -----------
